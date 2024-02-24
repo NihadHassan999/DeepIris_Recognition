@@ -1,4 +1,4 @@
-Iris-Recognition
+DeepIris_Recognition
 ========================
 Iris Recognition using fine-tuned ResNet50 model with ImageNet weights trained on IITD Iris Dataset (Runs CPU Inference Using ONNX).
 

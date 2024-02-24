@@ -12,7 +12,7 @@ onnx_model_path = 'ResNet50_Iris.onnx'
 sess = onnxruntime.InferenceSession(onnx_model_path)
 
 # Path to the test directory
-test_dir = "test"
+test_dir = "test_images"
 
 # Create a test generator without data augmentation
 test_datagen = ImageDataGenerator(preprocessing_function=preprocess_input)

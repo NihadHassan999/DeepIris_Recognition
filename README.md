@@ -4,7 +4,7 @@ Iris Recognition using fine-tuned ResNet50 model with ImageNet weights trained o
 
 ## Introduction:
 - Based on the paper [DeepIris: Iris Recognition Using A Deep Learning Approach](https://paperswithcode.com/paper/deepiris-iris-recognition-using-a-deep) by Shervin Minaee and Amirali Abdolrashidi.
-- The repository includes a training notebook that demonstrates how to train the DeepIris model using a dataset of iris images. The notebook provides step-by-step instructions and includes the output of each step for reference.
+- The repository includes a training notebook that demonstrates how to train the DeepIris model using [IITD Iris Dataset](https://www4.comp.polyu.edu.hk/~csajaykr/IITD/Database_Iris.htm). The notebook provides step-by-step instructions and includes the output of each step for reference.
 - The trained DeepIris model was exported to the ONNX format. A Python script is provided in the repository that demonstrates how to perform CPU inference using the ONNX model with the 'onnxruntime' library. This allows for fast and efficient inference of iris recognition on CPU-based systems.
 
 ## Prerequisites
@@ -47,3 +47,6 @@ DeepIris achieves state-of-the-art performance on standard iris recognition benc
 ## References
 <a id="1">[1]</a> 
 [DeepIris: Iris Recognition Using A Deep Learning Approach](https://paperswithcode.com/paper/deepiris-iris-recognition-using-a-deep)
+
+<a id="2">[2]</a> 
+[IIT Delhi Iris Database](https://www4.comp.polyu.edu.hk/~csajaykr/IITD/Database_Iris.htm)
